@@ -38,7 +38,7 @@ void scan(void)
   while (divi < num)
   {
     ++divi;
-  if (divi > 1 && divi < num && num % divi == 0) //Números primos ão divisiveis somente por um e por ele mesmo
+  if (divi > 1 && divi < num && num % divi == 0) //Números primos são divisiveis somente por um e por ele mesmo
     ++count;
    }
 }
